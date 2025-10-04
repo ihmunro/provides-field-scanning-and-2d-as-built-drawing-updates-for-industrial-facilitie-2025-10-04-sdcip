@@ -18,6 +18,26 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Deployment (GitHub Pages)
+
+This project is configured for static export and automatic deployment to GitHub Pages at:
+
+https://ihmunro.github.io/provides-field-scanning-and-2d-as-built-drawing-updates-for-industrial-facilitie-2025-10-04-sdcip
+
+- `next.config.ts` sets:
+  - `output: 'export'`
+  - `basePath` and `assetPrefix` to `/provides-field-scanning-and-2d-as-built-drawing-updates-for-industrial-facilitie-2025-10-04-sdcip`
+  - `images.unoptimized: true`
+- GitHub Actions workflow `.github/workflows/deploy-pages.yml` builds and publishes `out/` to Pages on push to `main`.
+- In your repo Settings → Pages, set Source to GitHub Actions.
+
+Local static export test:
+
+```bash
+npm run build
+npx serve out  # or any static file server
+```
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More

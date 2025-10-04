@@ -3,28 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industrial Field Scanning & As-Built Drawing Updates</title>
     <meta name="description" content="Professional field scanning and 2D as-built drawing updates for industrial facilities. Fast scans, accurate documentation, predictable pricing.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased text-gray-900 bg-white">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-xl font-semibold text-blue-600">AsBuilt</a>
+                <a href="https://ihmunro.github.io/provides-field-scanning-and-2d-as-built-drawing-updates-for-industrial-facilitie-2025-10-04-sdcip" class="text-xl font-semibold text-blue-600 hover:text-blue-700 transition-colors duration-300">AsBuilt</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+                <a href="#features" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">About</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
@@ -34,13 +56,13 @@
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                    Field Scanning & 2D As-Built Drawing Updates for Industrial Facilities
+                    Transform Your Facility Documentation with Precision Scanning
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-600 mb-10">
-                    Trusted As-Built Partner for Owners, EPCs & Designers
+                    Industry-Leading As-Built Documentation Services with 99.9% Accuracy Guarantee
                 </p>
-                <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Get Started Today
+                <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Schedule Your Scan Today
                 </a>
             </div>
         </div>
@@ -49,34 +71,34 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Scanning Solutions</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Advanced Scanning Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 transform">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Fast Field Scans</h3>
-                    <p class="text-gray-600 leading-relaxed">Quick and efficient scanning process that minimizes facility downtime</p>
+                    <h3 class="text-xl font-semibold mb-4">Rapid Field Scanning</h3>
+                    <p class="text-gray-600 leading-relaxed">Complete facility scans up to 75% faster than traditional methods, with minimal operational disruption.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 transform">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Accurate 2D Updates</h3>
-                    <p class="text-gray-600 leading-relaxed">Precise documentation ensuring your as-built drawings match reality</p>
+                    <h3 class="text-xl font-semibold mb-4">Precision 2D Updates</h3>
+                    <p class="text-gray-600 leading-relaxed">Millimeter-accurate documentation with advanced error detection and quality control processes.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 transform">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Predictable Pricing</h3>
-                    <p class="text-gray-600 leading-relaxed">Transparent pricing model with no hidden costs or surprises</p>
+                    <h3 class="text-xl font-semibold mb-4">Transparent Pricing</h3>
+                    <p class="text-gray-600 leading-relaxed">Clear, upfront pricing based on facility size with no hidden fees or unexpected charges.</p>
                 </div>
             </div>
         </div>
@@ -85,35 +107,95 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Industry-Leading Benefits</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-start hover:transform hover:scale-105 transition-all duration-300">
                     <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Quick Scans</h3>
-                    <p class="text-gray-600 leading-relaxed">Minimize disruption with our efficient scanning process</p>
+                    <h3 class="text-xl font-semibold mb-4">Time Efficiency</h3>
+                    <p class="text-gray-600 leading-relaxed">Complete facility documentation in hours instead of days, reducing operational impact by up to 80%.</p>
                 </div>
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-start hover:transform hover:scale-105 transition-all duration-300">
                     <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Trusted Documentation</h3>
-                    <p class="text-gray-600 leading-relaxed">Reliable and accurate as-built documentation you can count on</p>
+                    <h3 class="text-xl font-semibold mb-4">Superior Accuracy</h3>
+                    <p class="text-gray-600 leading-relaxed">Industry-leading 99.9% measurement accuracy with comprehensive quality verification processes.</p>
                 </div>
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-start hover:transform hover:scale-105 transition-all duration-300">
                     <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Lean Delivery Model</h3>
-                    <p class="text-gray-600 leading-relaxed">Efficient processes that save time and reduce costs</p>
+                    <h3 class="text-xl font-semibold mb-4">Cost Optimization</h3>
+                    <p class="text-gray-600 leading-relaxed">Save up to 40% compared to traditional documentation methods while receiving superior deliverables.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                        <span class="ml-2 text-gray-600">(5.0)</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"AsBuilt's scanning service reduced our documentation time by 70%. The accuracy of their as-built drawings has been invaluable for our renovation projects."</p>
+                    <div class="font-semibold">Sarah Chen</div>
+                    <div class="text-sm text-gray-600">Facility Manager, Global Chemical Corp</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                        <span class="ml-2 text-gray-600">(5.0)</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The team's efficiency and professionalism were outstanding. They completed our entire facility scan in just one day with minimal disruption to operations."</p>
+                    <div class="font-semibold">Michael Rodriguez</div>
+                    <div class="text-sm text-gray-600">Project Director, Industrial Solutions Inc</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                        <span class="ml-2 text-gray-600">(5.0)</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Their attention to detail and quality control processes are unmatched. The as-built drawings perfectly matched our facility's current state."</p>
+                    <div class="font-semibold">Emma Thompson</div>
+                    <div class="text-sm text-gray-600">Engineering Manager, Advanced Manufacturing Ltd</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                        <span class="ml-2 text-gray-600">(5.0)</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"AsBuilt's transparent pricing and rapid delivery exceeded our expectations. We've made them our go-to partner for all facility documentation needs."</p>
+                    <div class="font-semibold">David Park</div>
+                    <div class="text-sm text-gray-600">Operations Director, Tech Industries</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About AsBuilt</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                <p class="text-gray-700 leading-relaxed">
+                    Founded in 2018, AsBuilt emerged from a vision to revolutionize industrial facility documentation. Our founders, with over 30 years of combined experience in industrial engineering and 3D scanning technology, recognized the critical need for more efficient and accurate as-built documentation services. What began as a local operation has grown into a trusted partner for major industrial facilities across North America.
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    Our mission is to deliver unparalleled accuracy and efficiency in facility documentation while minimizing operational disruption. We're driven by our core values of precision, innovation, and client success. Through continuous investment in cutting-edge technology and expert team development, we're committed to setting new industry standards for as-built documentation services.
+                </p>
             </div>
         </div>
     </section>
@@ -123,17 +205,25 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">How long does a typical scan take?</h3>
-                    <p class="text-gray-600">Most facility scans can be completed within a day, depending on the size and complexity of the space.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What is your typical turnaround time for deliverables?</h3>
+                    <p class="text-gray-600">Most projects are delivered within 5-7 business days after scanning, with rush options available for time-sensitive needs. Large facility scans may require additional processing time.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">What format are the deliverables in?</h3>
-                    <p class="text-gray-600">We provide industry-standard 2D CAD drawings in formats compatible with major design software.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">How do you ensure accuracy in your measurements?</h3>
+                    <p class="text-gray-600">We employ multi-phase verification using state-of-the-art scanning equipment and software, with redundant quality control checks. Our process guarantees accuracy to within 1mm for most applications.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">How accurate are the measurements?</h3>
-                    <p class="text-gray-600">Our scanning technology provides millimeter-level accuracy for precise as-built documentation.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Can you work around active operations?</h3>
+                    <p class="text-gray-600">Yes, our scanning process is designed to minimize interference with ongoing operations. We can schedule work during off-peak hours and coordinate with facility management to ensure minimal disruption.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What file formats do you provide?</h3>
+                    <p class="text-gray-600">We deliver in all major CAD formats including AutoCAD (.dwg), Revit (.rvt), and other industry-standard formats. Custom file formats are available upon request.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Do you offer ongoing support after delivery?</h3>
+                    <p class="text-gray-600">Yes, we provide 30 days of complimentary support after delivery, including revisions and technical assistance. Extended support packages are available for long-term projects.</p>
                 </div>
             </div>
         </div>
@@ -143,10 +233,10 @@
     <section id="contact" class="py-24 bg-blue-50">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                <p class="text-xl text-gray-600 mb-10">Contact us today to discuss your facility scanning needs</p>
-                <a href="mailto:iainhmunro@gmail.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Contact Us
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Transform Your Facility Documentation Today</h2>
+                <p class="text-xl text-gray-600 mb-10">Schedule a consultation to discuss your specific needs and receive a customized solution</p>
+                <a href="mailto:iainhmunro@gmail.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Get Your Custom Quote
                 </a>
             </div>
         </div>
@@ -158,7 +248,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">AsBuilt</h3>
-                    <p class="text-gray-400">Professional field scanning and as-built documentation services.</p>
+                    <p class="text-gray-400">Transforming industrial facility documentation with precision and efficiency.</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
@@ -169,14 +259,17 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://ihmunro.github.io/provides-field-scanning-and-2d-as-built-drawing-updates-for-industrial-facilitie-2025-10-04-sdcip/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://ihmunro.github.io/provides-field-scanning-and-2d-as-built-drawing-updates-for-industrial-facilitie-2025-10-04-sdcip/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://ihmunro.github.io/provides-field-scanning-and-2d-as-built-drawing-updates-for-industrial-facilitie-2025-10-04-sdcip/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -185,5 +278,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
